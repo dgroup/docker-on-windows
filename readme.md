@@ -32,7 +32,7 @@ The docker doesn't work properly on Win7, thus, we have to use a workaround with
     Check the `config.vm.network "forwarded_port"` parameter in `Vagrantfile`.
      
 ##### Docker F.A.Q.
-- Prepare environment
+1. Prepare environment
     ```bash
     docker start <container_name>               # start particular container
     docker start -i <container_name>            # start particular container in interactive mode
@@ -44,7 +44,7 @@ The docker doesn't work properly on Win7, thus, we have to use a workaround with
     docker rmi <image_name>                     # remove particular image
     docker pull <image_name>                    # download particular image from the remote repository (NC Artifactory, dockerhub, etc)
     ```
- - Monitoring
+2. Monitoring
     ```bash
     # Display on-line information regarding system usage (CPU,RAM,IO) per container    
     docker stats $(docker ps --format '{{.Names}}')        
