@@ -2,10 +2,12 @@
 ##### The pain
 Unfortunately, there are a lot of developers who have to work in WinOS. I also have one workstation with WinOS.
 The docker doesn't work properly on Win7, thus, we have to use a workaround with Vagrant box.
+
 ##### Installation
 1. Install `VirtualBox-5.1.14-112924` (or later)
 2. Install `vagrant_1.9.1.msi` (or later)
 3. Run `create_dev_vm.bat`
+
 ##### Vagrant F.A.Q.
 1. Basic commands
     ```shell
