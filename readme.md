@@ -24,9 +24,11 @@ The docker doesn't work properly on Win7, thus, we have to use a workaround with
     vagrant destroy <VM_id>                     # Remove particular VM by id. You can detect the id by `vagrant global-status` command
     ```
 2. How can I share the files across host `winOS` and guest Linux VM?
+
     Check the `config.vm.synced_folder` parameter in `Vagrantfile`.
     
 3. How can I call the web applications inside of Docker containers hosted in guest Linux VM?
+
     Check the `config.vm.network "forwarded_port"` parameter in `Vagrantfile`.
      
 ##### Docker F.A.Q.
