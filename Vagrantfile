@@ -73,6 +73,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     sudo add-apt-repository ppa:webupd8team/java
     sudo apt-get update
+    sudo apt-get install -y git
     sudo apt-get install -y dos2unix
     sudo apt-get install -y curl
     sudo apt-get install -y tree
