@@ -1,7 +1,8 @@
+[![Join the chat at https://gitter.im/dgroup/docker-on-windows](https://badges.gitter.im/dgroup/docker-on-windows.svg)](https://gitter.im/dgroup/docker-on-windows?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+
 #### Docker on Windows
 ##### The pain
-
-[![Join the chat at https://gitter.im/dgroup/docker-on-windows](https://badges.gitter.im/dgroup/docker-on-windows.svg)](https://gitter.im/dgroup/docker-on-windows?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Unfortunately, there are a lot of developers who have to work in WinOS. I also have one workstation with WinOS.
 The docker doesn't work properly on Win7, thus, we have to use a workaround with Vagrant box.
 
