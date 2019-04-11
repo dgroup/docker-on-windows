@@ -73,10 +73,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     sudo add-apt-repository ppa:webupd8team/java
     sudo apt-get update
-    sudo apt-get install -y git
-    sudo apt-get install -y dos2unix
-    sudo apt-get install -y curl
-    sudo apt-get install -y tree
+    sudo apt-get install -y git dos2unix curl tree rng-tools
     sudo curl -fsSL https://get.docker.com/ | sh
     sudo usermod -aG docker vagrant
     sudo curl -L https://github.com/docker/compose/releases/download/1.14.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
